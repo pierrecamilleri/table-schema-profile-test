@@ -101,7 +101,8 @@
                 "properties": {
                   "name": {
                     "type": "string"
-                  },
+                  }
+                },
                 "additionalProperties": true,
                 "required": ["name"]
               },

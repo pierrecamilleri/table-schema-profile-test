@@ -1,5 +1,5 @@
 {
-  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
   "name": "deliberations",
   "title": "Délibérations",
   "description": "Spécification du modèle de données relatif aux délibérations adoptées par une collectivité locale",
