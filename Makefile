@@ -7,3 +7,6 @@ help:
 check-schema: ## Check schema against French profile with check-jsonschema
 	check-jsonschema --schemafile tableschema-fr-profile.json schema-deliberations.json
 
+frictionless-validate-schema: ## Check schema with frictionless
+	frictionless validate --type schema schema-deliberations.json
+
