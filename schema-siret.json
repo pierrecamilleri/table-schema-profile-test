@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
+  "name": "Test schema with siret/siren fr-format",
+  "fields": [
+    {
+      "name": "SIRET",
+      "type": "string",
+      "frFormat": "siret"
+    },
+    {
+      "name": "SIREN",
+      "type": "string",
+      "frFormat": "siren"
+    }
+  ]
+}
