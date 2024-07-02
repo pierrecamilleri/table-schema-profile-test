@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
+  "name": "siret-siren-frprofile",
+  "title": "Test avec frFormat Siren et Siret",
+  "version": "v0.1.0",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string",
+      "constraints": {
+        "unique": true
+      }
+    },
+    {
+      "name": "NINE",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "minLength": 10,
+        "maxLength": 10
+      }
+    }
+  ]
+}
