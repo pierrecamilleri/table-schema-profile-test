@@ -12,12 +12,33 @@
       }
     },
     {
-      "name": "NINE",
+      "name": "date",
+      "type": "date",
+      "format": "%d/%m/%Y"
+    },
+    {
+      "name": "FiveChars",
       "type": "string",
       "constraints": {
-        "required": true,
-        "minLength": 10,
-        "maxLength": 10
+        "minLength": 5,
+        "maxLength": 5
+      }
+    },
+    {
+      "name": "required",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "number",
+      "type": "number"
+    },
+    {
+      "name": "unique",
+      "type": "string",
+      "constraints": {
+        "unique": true
       }
     }
   ]
