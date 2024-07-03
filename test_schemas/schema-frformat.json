@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
+  "name": "siret-siren-frprofile",
+  "title": "Test avec frFormat Siren et Siret",
+  "version": "v0.1.0",
+  "fields": [
+    {
+      "name": "SIRET",
+      "type": "string",
+      "frFormat": "siret"
+    },
+    {
+      "name": "SIREN",
+      "type": "string",
+      "frFormat": "siren"
+    },
+    {
+      "name": "CODE_COMMUNE",
+      "type": "string",
+      "frFormat": "code-commune-insee"
+    },
+    {
+      "name": "COMMUNE",
+      "type": "string",
+      "frFormat": "commune"
+    },
+    {
+      "name": "PAYS",
+      "type": "string",
+      "frFormat": "pays"
+    },
+    {
+      "name": "CODE_PAYS",
+      "type": "string",
+      "frFormat": "code-pays-iso2"
+    }
+  ]
+}
