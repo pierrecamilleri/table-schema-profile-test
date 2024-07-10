@@ -22,7 +22,10 @@
     {
       "name": "COMMUNE",
       "type": "string",
-      "frFormat": "commune"
+      "frFormat": {
+        "name": "commune",
+        "strict": false
+      }
     },
     {
       "name": "PAYS",
