@@ -1,5 +1,5 @@
-ID,required,FiveChars,number,$id
-1,a,abcde,0,1
-1,c,abcde,1,2
-,b*,abcd,2,4
-1,d,abcde,a,3
+ID,required,FiveChars,number,$id,date
+1,a,abcde,0,1,22/10/2024
+1,c,abcde,1,2,2024-10-22
+,b*,abcd,2,4,22/10/24
+1,d,abcde,a,3,abcd
