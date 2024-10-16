@@ -1,0 +1,5 @@
+ID,required,FiveChars,number,$id
+1,a,abcde,0,1
+1,c,abcde,1,2
+,b*,abcd,2,4
+1,d,abcde,a,3
