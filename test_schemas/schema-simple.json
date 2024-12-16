@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
   "name": "siret-siren-frprofile",
-  "title": "Test avec frFormat Siren et Siret",
+  "title": "Test avec customCheck Siren et Siret",
   "version": "v0.1.0",
   "fields": [
     {

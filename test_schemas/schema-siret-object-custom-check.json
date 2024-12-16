@@ -6,13 +6,25 @@
   "fields": [
     {
       "name": "SIRET",
-      "type": "string",
-      "customCheck": "invalid"
+      "type": "string"
     },
     {
       "name": "SIREN",
-      "type": "string",
-      "customCheck": "siren"
+      "type": "string"
+    }
+  ],
+  "custom_checks": [
+    {
+      "name": "siret",
+      "params": {
+        "column": "SIRET"
+      }
+    },
+    {
+      "name": "siren",
+      "params": {
+        "column": "SIREN"
+      }
     }
   ]
 }
