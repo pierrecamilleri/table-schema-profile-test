@@ -19,9 +19,7 @@
       "type": "string",
       "customCheck": {
           "name": "code-commune-insee",
-          "params": {
-              "cog": "latest"
-          }
+          "cog": "latest"
       }
     },
     {
@@ -29,10 +27,8 @@
       "type": "string",
       "customCheck": {
         "name": "commune",
-        "params": {
-            "cog": "latest",
-            "strict": false
-        }
+        "cog": "latest",
+        "strict": false
       }
     },
     {
@@ -40,9 +36,7 @@
       "type": "string",
       "customCheck": {
           "name": "pays",
-          "params": {
-              "cog": "latest"
-          }
+          "cog": "latest"
       }
     },
     {
