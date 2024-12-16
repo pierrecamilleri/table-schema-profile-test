@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
+  "name": "siret-siren-frprofile",
+  "title": "Test avec customCheck Siren et Siret",
+  "version": "v0.1.0",
+  "fields": [
+    {
+      "name": "SIRET",
+      "type": "string",
+      "customCheck": "siret"
+    },
+    {
+      "name": "SIREN",
+      "type": "string",
+      "customCheck": "siren"
+    },
+    {
+      "name": "CODE_COMMUNE",
+      "type": "string",
+      "customCheck": {
+          "name": "code-commune-insee",
+          "cog": 1
+      }
+    },
+    {
+      "name": "COMMUNE",
+      "type": "string",
+      "customCheck": {
+        "name": "commune",
+        "cog": 1,
+        "strict": false
+      }
+    },
+    {
+      "name": "PAYS",
+      "type": "string",
+      "customCheck": {
+          "name": "pays",
+          "cog": 1
+      }
+    },
+    {
+      "name": "CODE_PAYS",
+      "type": "string",
+      "customCheck": "code-pays-iso2"
+    }
+  ]
+}
