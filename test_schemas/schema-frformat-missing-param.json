@@ -17,33 +17,20 @@
     {
       "name": "CODE_COMMUNE",
       "type": "string",
-      "customCheck": {
-          "name": "code-commune-insee",
-          "params": {
-              "cog": "latest"
-          }
-      }
+      "customCheck": "code-commune-insee"
     },
     {
       "name": "COMMUNE",
       "type": "string",
       "customCheck": {
         "name": "commune",
-        "params": {
-            "cog": "latest",
-            "strict": false
-        }
+        "strict": false
       }
     },
     {
       "name": "PAYS",
       "type": "string",
-      "customCheck": {
-          "name": "pays",
-          "params": {
-              "cog": "latest"
-          }
-      }
+      "customCheck": "pays"
     },
     {
       "name": "CODE_PAYS",
