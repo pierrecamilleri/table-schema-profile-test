@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
+  "name": "siret-siren-frprofile",
+  "title": "Test avec customCheck Siren et Siret",
+  "version": "v0.1.0",
+  "fields": [
+    {
+      "name": "SIRET",
+      "type": "string",
+      "customCheck": "siret"
+    },
+    {
+      "name": "SIREN",
+      "type": "string",
+      "customCheck": "siren"
+    },
+    {
+      "name": "CODE_COMMUNE",
+      "type": "string",
+      "customCheck": {
+          "name": "code-commune-insee",
+          "cog": "latest"
+      }
+    },
+    {
+      "name": "COMMUNE",
+      "type": "string",
+      "customCheck": {
+        "name": "commune",
+        "cog": "latest",
+        "strict": false
+      }
+    },
+    {
+      "name": "PAYS",
+      "type": "string",
+      "customCheck": {
+          "name": "pays",
+          "cog": "latest"
+      }
+    },
+    {
+      "name": "CODE_PAYS",
+      "type": "string",
+      "customCheck": "code-pays-iso2"
+    },
+    {
+      "name": "VOTE_REEL",
+      "type": "number",
+      "customCheck":  {
+        "name": "sum-columns-value",
+        "columns": ["VOTE_POUR", "VOTE_CONTRE", "VOTE_ABSTENTION"]
+      }
+    },
+    {
+      "name": "VOTE_POUR",
+      "type": "number"
+    },
+    {
+      "name": "VOTE_CONTRE",
+      "type": "number"
+    },
+    {
+      "name": "VOTE_ABSTENTION",
+      "type": "number"
+    }
+  ]
+}
