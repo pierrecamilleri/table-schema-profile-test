@@ -25,7 +25,7 @@
       "name": "D",
       "type": "integer",
       "customCheck": {
-        "name": "cohesive_columns_value",
+        "name": "cohesive-columns-value",
         "othercolumns": ["B", "C"]
       }
     }
