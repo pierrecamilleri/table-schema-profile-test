@@ -28,6 +28,14 @@
         "name": "cohesive-columns-value",
         "othercolumns": ["B", "C"]
       }
+    },
+    {
+      "name": "E",
+      "type": "integer",
+      "customCheck": {
+        "name": "sum-columns-value",
+        "columns": ["B", "C", "D"]
+      }
     }
   ]
 }
