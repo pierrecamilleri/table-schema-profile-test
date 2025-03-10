@@ -16,6 +16,18 @@
     {
       "name": "B",
       "type": "integer"
+    },
+    {
+      "name": "C",
+      "type": "integer"
+    },
+    {
+      "name": "D",
+      "type": "integer",
+      "customCheck": {
+        "name": "cohesive_columns_value",
+        "othercolumns": ["B", "C"]
+      }
     }
   ]
 }
