@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pierrecamilleri/table-schema-profile-test/master/tableschema-fr-profile.json",
+  "name": "siret-siren-frprofile",
+  "title": "Test avec customChecks",
+  "version": "v0.1.0",
+  "fields": [
+    {
+      "name": "A",
+      "type": "integer",
+      "customCheck": {
+        "name": "compare-columns-value",
+        "op": "<=",
+        "column2": "B"
+      }
+    },
+    {
+      "name": "B",
+      "type": "integer",
+      "customCheck": "siren"
+    }
+  ]
+}
