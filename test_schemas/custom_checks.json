@@ -15,8 +15,7 @@
     },
     {
       "name": "B",
-      "type": "integer",
-      "customCheck": "siren"
+      "type": "integer"
     }
   ]
 }
