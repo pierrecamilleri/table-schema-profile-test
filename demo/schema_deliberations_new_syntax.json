@@ -98,7 +98,7 @@
       "constraints": {
         "required": true
       },
-      "customCheck": "nomenclature-actes"
+      "customCheck": "nomenclature-acte"
     },
     {
       "name": "DELIB_OBJET",
