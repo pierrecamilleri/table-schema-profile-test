@@ -28,7 +28,7 @@
       "customCheck": {
         "name": "commune",
         "cog": "latest",
-        "strict": false
+        "ignore_case": true
       }
     },
     {
